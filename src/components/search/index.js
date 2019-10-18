@@ -1,13 +1,8 @@
- 
-import Carousel from 'react-native-snap-carousel'; 
 import React, { Component } from 'react';
-import { Dimensions,View, Image,Text,TextInput } from 'react-native';
+import { Dimensions,View ,TextInput } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import styles from './styles' 
-const { width } = Dimensions.get('window');
-
-
-
+// const { width } = Dimensions.get('window'); 
 export default class Search extends Component {
 
     constructor(props) {
@@ -16,9 +11,7 @@ export default class Search extends Component {
     } 
 
     render() {
-        let{
-            textStyles ,
-            style,
+        let{ 
             searchContent 
         } = this.props  
        

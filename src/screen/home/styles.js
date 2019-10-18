@@ -16,4 +16,20 @@ export default StyleSheet.create({
       width:30,
       marginHorizontal:5,
     },
+    SectionHeaderStyle:{
+      // backgroundColor : 'transparent',
+      backgroundColor : '#CDDC39',
+      fontSize : 20,
+      padding: 5,
+      color: '#fff',
+    },
+  
+    SectionListItemStyle:{
+  
+      fontSize : 15,
+      padding: 5,
+      color: '#000',
+      backgroundColor : '#F5F5F5'
+  
+    }
 });

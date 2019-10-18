@@ -14,13 +14,13 @@ export default class ProductSwiper extends Component {
 
     _renderItem ({item, index}) {
         return ( 
-          <View style={{ borderRadius:20 ,alignItems:'center',alignContent:'center' }}> 
+          <View style={{ borderRadius:20 ,alignItems:'center',alignContent:'center' ,marginVertical:20 ,backgroundColor:'#fff'}}> 
                 <View style={{ }}>
                     <Image source={{uri:item.link}}
-                    style={{width: width/2, height: 200 ,resizeMode:'contain',alignSelf:'center',borderRadius:40 }} />
+                    style={{width: width/2, height: 150 ,resizeMode:'contain' ,alignSelf:'center', alignContent:'center' , borderRadius:40  }} />
                     <Text style={{ textAlign:'center' }}>{item.name}</Text> 
               </View>   
-          </View>
+          </View>   
       )
     } 
 
@@ -30,13 +30,15 @@ export default class ProductSwiper extends Component {
         } = this.props  
        
         return (   
-            <Carousel
-                ref={(c) => { this._carousel = c; }}
-                data={content}
-                renderItem={this._renderItem}
-                sliderWidth={width}
-                itemWidth={width/2} 
-            />   
+            <View style={{flex:1  }}>
+                <Carousel
+                    ref={(c) => { this._carousel = c; }}
+                    data={content}
+                    renderItem={this._renderItem}
+                    sliderWidth={width}
+                    itemWidth={width/2} 
+                />   
+            </View>
         )
     }
 }
