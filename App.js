@@ -5,8 +5,9 @@ import OfferScreen from './src/screen/offer'
 
 
 const MainNavigator = createStackNavigator({
-  Home: {screen: HomeScreen},
+  Home: {screen: HomeScreen}, 
   Offer: {screen: OfferScreen},
+  // Home: {screen: HomeScreen}, 
 });
 
 const App = createAppContainer(MainNavigator);

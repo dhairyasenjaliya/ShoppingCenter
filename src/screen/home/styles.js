@@ -24,8 +24,7 @@ export default StyleSheet.create({
       color: '#fff',
     },
   
-    SectionListItemStyle:{
-  
+    SectionListItemStyle:{ 
       fontSize : 15,
       padding: 5,
       color: '#000',

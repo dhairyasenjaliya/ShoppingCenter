@@ -16,7 +16,11 @@ export default StyleSheet.create({
         alignItems:'center', 
         marginHorizontal:20,
         marginVertical:10,
-        borderRadius:10
+        borderWidth: 1
+        // borderRadius:10,
+        // borderLeftWidth: 4,
+        // borderRightWidth: 4,
+        // height: 70
         },
         searchIcon: {
             padding: 10,
