@@ -1,6 +1,6 @@
  
-import Carousel from './node_modules/react-native-snap-carousel'; 
-import React, { Component } from './node_modules/react';
+import Carousel from 'react-native-snap-carousel'; 
+import React, { Component } from 'react';
 import { Dimensions,View, Image,Text } from 'react-native';
 
 const { width } = Dimensions.get('window'); 
@@ -11,7 +11,7 @@ export default class ProductSwiper extends Component {
       super(props);
       this.state = {};  
     }
-    
+
     _renderItem ({item, index}) {
         return ( 
           <View style={{ borderRadius:20 ,alignItems:'center',alignContent:'center' }}> 

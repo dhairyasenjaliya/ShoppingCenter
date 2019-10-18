@@ -3,7 +3,7 @@ import { View, Text ,Button ,SafeAreaView ,TextInput ,Dimensions,Image} from 're
 import Icon from 'react-native-vector-icons/Ionicons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import styles from './styles' 
-import Carousel from 'react-native-snap-carousel'; 
+// import Carousel from 'react-native-snap-carousel'; 
 import ProductSwiper from '../../components/productSwiper'
 import Banner from '../../components/banner'
 import Search from '../../components/search'
